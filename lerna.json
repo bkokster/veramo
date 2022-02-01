@@ -13,7 +13,8 @@
       "allowBranch": [
         "main",
         "next",
-        "master"
+        "master",
+        "default"
       ],
       "conventionalCommits": true,
       "gitRemote": "origin",
