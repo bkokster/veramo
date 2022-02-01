@@ -1,7 +1,6 @@
 {
   "name": "veramo",
   "private": true,
-  "version": "1.0.0",
   "scripts": {
     "build": "lerna run build && yarn build:schema-api",
     "bootstrap": "lerna bootstrap",
