@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/key-manager",
   "description": "Key Manager plugin for Veramo",
-  "version": "3.2.0",
+  "version": "3.2.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.0",
+    "@bkokster/core": "^3.2.2",
     "@ethersproject/bytes": "5.5.0",
     "@ethersproject/strings": "5.5.0",
     "@ethersproject/transactions": "5.5.0",

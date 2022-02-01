@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/did-provider-ethr",
   "description": "Veramo ehtr-did based identity controller plugin.",
-  "version": "3.2.0",
+  "version": "3.2.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.0",
-    "@bkokster/did-manager": "^3.2.0",
+    "@bkokster/core": "^3.2.2",
+    "@bkokster/did-manager": "^3.2.2",
     "@ethersproject/abstract-provider": "5.5.1",
     "@ethersproject/abstract-signer": "5.5.0",
     "@ethersproject/address": "5.5.0",

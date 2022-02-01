@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/core",
   "description": "Veramo Core Logic & Interfaces.",
-  "version": "3.2.0",
+  "version": "3.2.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {

@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/did-provider-key",
   "description": "Veramo plugin that can enable creation and control of did:key identifiers.",
-  "version": "3.2.0",
+  "version": "3.2.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.0",
-    "@bkokster/did-manager": "^3.2.0",
+    "@bkokster/core": "^3.2.2",
+    "@bkokster/did-manager": "^3.2.2",
     "@transmute/did-key-ed25519": "^0.3.0-unstable.5",
     "@transmute/did-key-secp256k1": "^0.3.0-unstable.5",
     "@transmute/did-key-x25519": "^0.3.0-unstable.5",

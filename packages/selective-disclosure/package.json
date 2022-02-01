@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/selective-disclosure",
   "description": "Veramo plugin to enable the uPort selective disclosure protocol with W3C compatibility.",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -14,11 +14,11 @@
     }
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.0",
-    "@bkokster/credential-w3c": "^3.2.1",
-    "@bkokster/data-store": "^3.2.0",
-    "@bkokster/did-jwt": "^3.2.1",
-    "@bkokster/message-handler": "^3.2.0",
+    "@bkokster/core": "^3.2.2",
+    "@bkokster/credential-w3c": "^3.2.2",
+    "@bkokster/data-store": "^3.2.2",
+    "@bkokster/did-jwt": "^3.2.2",
+    "@bkokster/message-handler": "^3.2.2",
     "debug": "^4.3.3",
     "did-jwt": "^5.12.3",
     "uuid": "^8.3.0"
