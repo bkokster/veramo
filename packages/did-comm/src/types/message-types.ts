@@ -1,3 +1,5 @@
+import { _NormalizedVerificationMethod } from "@veramo/utils";
+
 /**
  * The DIDComm message structure.
  * See https://identity.foundation/didcomm-messaging/spec/#plaintext-message-structure
@@ -7,7 +9,7 @@
 export interface IDIDCommMessage {
   type: string
   from?: string
-  to: string
+  to?: string
   thid?: string
   pthid?: string
   id: string
@@ -15,7 +17,8 @@ export interface IDIDCommMessage {
   created_time?: string
   next?: string
   from_prior?: string
-  body: any
+  body: any,
+  tokeyAgreementKeys: _NormalizedVerificationMethod[]
 }
 
 /**

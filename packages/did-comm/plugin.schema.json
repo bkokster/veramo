@@ -75,13 +75,48 @@
             "from_prior": {
               "type": "string"
             },
-            "body": {}
+            "body": {},
+            "tokeyAgreementKeys": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string"
+                  },
+                  "type": {
+                    "type": "string"
+                  },
+                  "controller": {
+                    "type": "string"
+                  },
+                  "publicKeyHex": {
+                    "type": "string"
+                  },
+                  "publicKeyMultibase": {
+                    "type": "string"
+                  },
+                  "blockchainAccountId": {
+                    "type": "string"
+                  },
+                  "ethereumAddress": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "id",
+                  "type",
+                  "controller"
+                ],
+                "description": "Represents a  {@link  did-resolver#VerificationMethod  }  whose public key material has been converted to `publicKeyHex`"
+              }
+            }
           },
           "required": [
             "type",
-            "to",
             "id",
-            "body"
+            "body",
+            "tokeyAgreementKeys"
           ],
           "description": "The DIDComm message structure. See https://identity.foundation/didcomm-messaging/spec/#plaintext-message-structure"
         },

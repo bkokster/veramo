@@ -270,16 +270,35 @@ export class DIDComm implements IAgentPlugin {
       }
     }
 
-    // 2. resolve DID for args.message.to
-    const didDocument: DIDDocument = await resolveDidOrThrow(args?.message?.to, context)
 
-    // 2.1 extract all recipient key agreement keys and normalize them
-    const keyAgreementKeys: _NormalizedVerificationMethod[] = (
-      await dereferenceDidKeys(didDocument, 'keyAgreement', context)
-    ).filter((k) => k.publicKeyHex?.length! > 0)
+    let keyAgreementKeys: _NormalizedVerificationMethod[];
+    if(isDefined(args?.message?.to)){
 
-    if (keyAgreementKeys.length === 0) {
-      throw new Error(`key_not_found: no key agreement keys found for recipient ${args?.message?.to}`)
+      // 2. resolve DID for args.message.to
+      const didDocument: DIDDocument = await resolveDidOrThrow(args?.message?.to, context)
+
+      // 2.1 extract all recipient key agreement keys and normalize them
+      keyAgreementKeys = (
+        await dereferenceDidKeys(didDocument, 'keyAgreement', context)
+      ).filter((k) => k.publicKeyHex?.length! > 0)
+
+      if (keyAgreementKeys.length === 0) {
+        throw new Error(`key_not_found: no key agreement keys found for recipient ${args?.message?.to}`)
+      }
+
+    } 
+    else if (isDefined(args?.message?.tokeyAgreementKeys))
+    {
+      
+      keyAgreementKeys = args?.message?.tokeyAgreementKeys
+    
+    }
+    else {
+
+      throw new Error(
+        `Either recipient DID or recipient Key Agreement Keys must be supplied.`,
+      )
+
     }
 
     // 2.2 get public key bytes and key IDs for supported recipient keys
