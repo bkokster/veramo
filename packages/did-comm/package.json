@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/did-comm",
+  "name": "@bkokster/did-comm",
   "description": "Veramo messaging plugin implementing DIDComm v2.",
   "version": "3.1.0",
   "main": "build/index.js",
@@ -16,9 +16,9 @@
   "dependencies": {
     "@ethersproject/signing-key": "^5.5.0",
     "@stablelib/ed25519": "^1.0.2",
-    "@veramo/core": "^3.1.0",
-    "@veramo/message-handler": "^3.1.0",
-    "@veramo/utils": "^3.1.0",
+    "@bkokster/core": "^3.1.0",
+    "@bkokster/message-handler": "^3.1.0",
+    "@bkokster/utils": "^3.1.0",
     "cross-fetch": "^3.1.4",
     "debug": "^4.3.3",
     "did-jwt": "^5.12.3",
@@ -41,7 +41,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     "Mircea Nistor <mircea.nistor@mesh.xyz",

@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/key-manager",
+  "name": "@bkokster/key-manager",
   "description": "Key Manager plugin for Veramo",
   "version": "3.1.0",
   "main": "build/index.js",
@@ -13,7 +13,7 @@
     "@ethersproject/strings": "5.5.0",
     "@ethersproject/transactions": "5.5.0",
     "@stablelib/ed25519": "^1.0.2",
-    "@veramo/core": "^3.1.0",
+    "@bkokster/core": "^3.1.0",
     "did-jwt": "^5.12.3",
     "uint8arrays": "3.0.0"
   },
@@ -29,7 +29,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     {

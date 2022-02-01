@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/did-provider-ethr",
+  "name": "@bkokster/did-provider-ethr",
   "description": "Veramo ehtr-did based identity controller plugin.",
   "version": "3.1.0",
   "main": "build/index.js",
@@ -16,8 +16,8 @@
     "@ethersproject/properties": "5.5.0",
     "@ethersproject/signing-key": "5.5.0",
     "@ethersproject/transactions": "5.5.0",
-    "@veramo/core": "^3.1.0",
-    "@veramo/did-manager": "^3.1.0",
+    "@bkokster/core": "^3.1.0",
+    "@bkokster/did-manager": "^3.1.0",
     "debug": "^4.3.3",
     "ethr-did": "^2.2.0"
   },
@@ -34,7 +34,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     {

@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/did-manager",
+  "name": "@bkokster/did-manager",
   "description": "Veramo DID manager plugin",
   "version": "3.1.0",
   "main": "build/index.js",
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@veramo/core": "^3.1.0",
-    "@veramo/did-discovery": "^3.1.0"
+    "@bkokster/core": "^3.1.0",
+    "@bkokster/did-discovery": "^3.1.0"
   },
   "devDependencies": {
     "typescript": "4.5.5"
@@ -24,7 +24,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     {

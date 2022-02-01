@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/data-store",
+  "name": "@bkokster/data-store",
   "description": "Veramo date storage based on TypeORM",
   "version": "3.1.0",
   "main": "build/index.js",
@@ -14,11 +14,11 @@
     }
   },
   "dependencies": {
-    "@veramo/core": "^3.1.0",
-    "@veramo/did-discovery": "^3.1.0",
-    "@veramo/did-manager": "^3.1.0",
-    "@veramo/key-manager": "^3.1.0",
-    "@veramo/utils": "^3.1.0",
+    "@bkokster/core": "^3.1.0",
+    "@bkokster/did-discovery": "^3.1.0",
+    "@bkokster/did-manager": "^3.1.0",
+    "@bkokster/key-manager": "^3.1.0",
+    "@bkokster/utils": "^3.1.0",
     "debug": "^4.3.3",
     "typeorm": "0.2.41"
   },
@@ -37,7 +37,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     {

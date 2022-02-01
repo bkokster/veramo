@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/remote-server",
+  "name": "@bkokster/remote-server",
   "description": "Express.js module that can expose some agent methods and messaging endpoints",
   "version": "3.1.1",
   "main": "build/index.js",
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@veramo/core": "^3.1.0",
-    "@veramo/remote-client": "^3.1.0",
+    "@bkokster/core": "^3.1.0",
+    "@bkokster/remote-client": "^3.1.0",
     "debug": "^4.3.3",
     "passport": "^0.5.2",
     "passport-http-bearer": "^1.0.1",
@@ -32,7 +32,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     {

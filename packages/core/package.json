@@ -1,5 +1,5 @@
 {
-  "name": "@veramo/core",
+  "name": "@bkokster/core",
   "description": "Veramo Core Logic & Interfaces.",
   "version": "3.1.0",
   "main": "build/index.js",
@@ -38,7 +38,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "repository": "git@github.com:uport-project/veramo.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkokster/veramo.git"
+  },
   "author": "Simonas Karuzas <simonas.karuzas@mesh.xyz>",
   "contributors": [
     "Mircea Nistor <mircea.nistor@mesh.xyz>"
