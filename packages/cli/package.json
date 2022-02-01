@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/cli",
   "description": "Veramo command line application.",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "main": "build/cli.js",
   "types": "build/cli.d.ts",
   "bin": {
@@ -15,11 +15,11 @@
   },
   "dependencies": {
     "@bkokster/core": "^3.2.0",
-    "@bkokster/credential-w3c": "^3.2.0",
+    "@bkokster/credential-w3c": "^3.2.1",
     "@bkokster/data-store": "^3.2.0",
     "@bkokster/did-comm": "^3.2.0",
     "@bkokster/did-discovery": "^3.2.0",
-    "@bkokster/did-jwt": "^3.1.0",
+    "@bkokster/did-jwt": "^3.2.1",
     "@bkokster/did-manager": "^3.2.0",
     "@bkokster/did-provider-ethr": "^3.2.0",
     "@bkokster/did-provider-key": "^3.2.0",
@@ -30,7 +30,7 @@
     "@bkokster/message-handler": "^3.2.0",
     "@bkokster/remote-client": "^3.2.0",
     "@bkokster/remote-server": "^3.2.0",
-    "@bkokster/selective-disclosure": "^3.2.0",
+    "@bkokster/selective-disclosure": "^3.2.1",
     "@bkokster/url-handler": "^3.2.0",
     "@microsoft/api-extractor": "7.19.4",
     "@microsoft/api-extractor-model": "7.15.3",
