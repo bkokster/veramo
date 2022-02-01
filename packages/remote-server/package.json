@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/remote-server",
   "description": "Express.js module that can expose some agent methods and messaging endpoints",
-  "version": "3.1.1",
+  "version": "3.2.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.1.0",
-    "@bkokster/remote-client": "^3.1.0",
+    "@bkokster/core": "^3.2.0",
+    "@bkokster/remote-client": "^3.2.0",
     "debug": "^4.3.3",
     "passport": "^0.5.2",
     "passport-http-bearer": "^1.0.1",

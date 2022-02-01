@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/bkokster/veramo/compare/v3.1.1...v3.2.0) (2022-02-01)
+
+
+### Bug Fixes
+
+* **did-resolver:** use interface `Resolvable` instead of the `Resolver` class ([9c2e59f](https://github.com/bkokster/veramo/commit/9c2e59f3f23f808511c6c0e8e440b4d53ba5cb00))
+* **remote-server:** api-key-auth ([#772](https://github.com/bkokster/veramo/issues/772)) ([cbe6f35](https://github.com/bkokster/veramo/commit/cbe6f35e31c3a9e062d7f9c593253cb53b988e46)), closes [#771](https://github.com/bkokster/veramo/issues/771)
+* **remote-server:** web-did-doc-router options ([#777](https://github.com/bkokster/veramo/issues/777)) ([cc1ec7a](https://github.com/bkokster/veramo/commit/cc1ec7a0c510fcc2329bffcb33ee91fe8739ae5a))
+
+
+
+
+
 ## [3.1.1](https://github.com/uport-project/veramo/compare/v3.1.0...v3.1.1) (2022-01-13)
 
 

@@ -3,6 +3,41 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/uport-project/veramo/compare/v3.1.1...v3.2.0) (2022-02-01)
+
+
+### Bug Fixes
+
+* **credential-ld:** include credential context and fix context loader Map ([ef7797d](https://github.com/uport-project/veramo/commit/ef7797d4c5f20b22e4e39a5ad60a851fa1c4f2ed))
+* **credential-ld:** include LDDefaultContexts in npm bundle ([3e2cf29](https://github.com/uport-project/veramo/commit/3e2cf29ecc7aecf0a3750beec7490306ceb79dab))
+* **deps:** update all non-major dependencies ([183b4bc](https://github.com/uport-project/veramo/commit/183b4bc5ca3dcf11dd111e7e1ae19636909ff4c7))
+* **deps:** update builders-and-testers ([8a1884b](https://github.com/uport-project/veramo/commit/8a1884ba38f436c3eb7246a04a6c1e387dd71467))
+* **deps:** update builders-and-testers ([60b8f79](https://github.com/uport-project/veramo/commit/60b8f791a3af73bbe7c944bca719f2bdf34e60be))
+* **deps:** update builders-and-testers ([5202ef1](https://github.com/uport-project/veramo/commit/5202ef1dd51fd3b7ad57591fd726fdc571bc8492))
+* **deps:** update builders-and-testers ([4d5e912](https://github.com/uport-project/veramo/commit/4d5e912ee0aefb79e9198cb045cb9106af16a4b1))
+* **deps:** update dependency @ethersproject/random to v5.5.1 ([b5fcdb5](https://github.com/uport-project/veramo/commit/b5fcdb5f083e266a1f865b85e805de1a1ef5baa5))
+* **deps:** update dependency commander to v9 ([28c35e1](https://github.com/uport-project/veramo/commit/28c35e187caa9e5d56e149e5be220f6c9e14e0fb))
+* **deps:** update dependency did-jwt to v5.12.0 ([5b414d7](https://github.com/uport-project/veramo/commit/5b414d7d720e7c59cf3f56c35da5fe247e21bf26))
+* **deps:** update dependency did-jwt-vc to v2.1.8 ([d4520be](https://github.com/uport-project/veramo/commit/d4520be7f8ca140a5c8eafd7effb38812d51f2b4))
+* **deps:** update dependency dotenv to v12 ([ea7641e](https://github.com/uport-project/veramo/commit/ea7641e4e21da0fc02535848c40ff81e644c069e))
+* **deps:** update dependency dotenv to v14 ([88bd6dc](https://github.com/uport-project/veramo/commit/88bd6dce4fc364e02c97aff7130c2685640f48cf))
+* **deps:** update dependency express-handlebars to v6 ([4444828](https://github.com/uport-project/veramo/commit/4444828eddd68b7547cb5160a1970f35af0698b7))
+* **deps:** update dependency openapi-types to v10 ([3d9cf88](https://github.com/uport-project/veramo/commit/3d9cf8810cd04dbde394248a818e1e59eb251c67))
+* **deps:** update dependency typeorm to v0.2.41 ([61a8103](https://github.com/uport-project/veramo/commit/61a8103c15849dfd8574dda69692a7d8f7fa534e))
+* **did-resolver:** use interface `Resolvable` instead of the `Resolver` class ([9c2e59f](https://github.com/uport-project/veramo/commit/9c2e59f3f23f808511c6c0e8e440b4d53ba5cb00))
+* fix inquirer prompt for subject DID during SDR ([20d6cab](https://github.com/uport-project/veramo/commit/20d6cabe1a86e0ba4521a9c8867471ea6840bf08)), closes [#790](https://github.com/uport-project/veramo/issues/790)
+* **remote-server:** api-key-auth ([#772](https://github.com/uport-project/veramo/issues/772)) ([cbe6f35](https://github.com/uport-project/veramo/commit/cbe6f35e31c3a9e062d7f9c593253cb53b988e46)), closes [#771](https://github.com/uport-project/veramo/issues/771)
+* **remote-server:** web-did-doc-router options ([#777](https://github.com/uport-project/veramo/issues/777)) ([cc1ec7a](https://github.com/uport-project/veramo/commit/cc1ec7a0c510fcc2329bffcb33ee91fe8739ae5a))
+
+
+### Features
+
+* **credential-ld:** add option to fetch remote contexts ([60226a1](https://github.com/uport-project/veramo/commit/60226a1a64d7f06e3869ff0087f4773376b4160e))
+
+
+
+
+
 ## [3.1.1](https://github.com/uport-project/veramo/compare/v3.1.0...v3.1.1) (2022-01-13)
 
 

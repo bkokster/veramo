@@ -1,16 +1,16 @@
 {
   "name": "@bkokster/utils",
   "description": "Helper methods for Veramo plugins",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
+    "@bkokster/core": "^3.2.0",
     "@ethersproject/transactions": "^5.5.0",
     "@stablelib/ed25519": "^1.0.2",
-    "@bkokster/core": "^3.1.0",
     "blakejs": "^1.1.1",
     "cross-fetch": "^3.1.4",
     "debug": "^4.3.3",

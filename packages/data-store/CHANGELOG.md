@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/bkokster/veramo/compare/v3.1.1...v3.2.0) (2022-02-01)
+
+
+### Bug Fixes
+
+* **deps:** update all non-major dependencies ([183b4bc](https://github.com/bkokster/veramo/commit/183b4bc5ca3dcf11dd111e7e1ae19636909ff4c7))
+* **deps:** update dependency typeorm to v0.2.41 ([61a8103](https://github.com/bkokster/veramo/commit/61a8103c15849dfd8574dda69692a7d8f7fa534e))
+* **did-resolver:** use interface `Resolvable` instead of the `Resolver` class ([9c2e59f](https://github.com/bkokster/veramo/commit/9c2e59f3f23f808511c6c0e8e440b4d53ba5cb00))
+
+
+
+
+
 # [3.1.0](https://github.com/uport-project/veramo/compare/v3.0.0...v3.1.0) (2021-11-12)
 
 

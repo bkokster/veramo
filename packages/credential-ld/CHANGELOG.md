@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/bkokster/veramo/compare/v3.1.1...v3.2.0) (2022-02-01)
+
+
+### Bug Fixes
+
+* **credential-ld:** include credential context and fix context loader Map ([ef7797d](https://github.com/bkokster/veramo/commit/ef7797d4c5f20b22e4e39a5ad60a851fa1c4f2ed))
+* **credential-ld:** include LDDefaultContexts in npm bundle ([3e2cf29](https://github.com/bkokster/veramo/commit/3e2cf29ecc7aecf0a3750beec7490306ceb79dab))
+* **did-resolver:** use interface `Resolvable` instead of the `Resolver` class ([9c2e59f](https://github.com/bkokster/veramo/commit/9c2e59f3f23f808511c6c0e8e440b4d53ba5cb00))
+
+
+### Features
+
+* **credential-ld:** add option to fetch remote contexts ([60226a1](https://github.com/bkokster/veramo/commit/60226a1a64d7f06e3869ff0087f4773376b4160e))
+
+
+
+
+
 # [3.1.0](https://github.com/uport-project/veramo/compare/v3.0.0...v3.1.0) (2021-11-12)
 
 
