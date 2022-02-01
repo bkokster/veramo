@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/did-provider-web",
   "description": "Veramo plugin that can enable creation and control of did:web identifiers.",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.2",
-    "@bkokster/did-manager": "^3.2.2",
+    "@bkokster/core": "^3.2.3",
+    "@bkokster/did-manager": "^3.2.3",
     "debug": "^4.3.3"
   },
   "devDependencies": {

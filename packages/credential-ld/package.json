@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/credential-ld",
   "description": "Veramo plugin for working with W3C JSON-LD Verifiable Credentials & Presentations.",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -14,9 +14,9 @@
     }
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.2",
-    "@bkokster/did-resolver": "^3.2.2",
-    "@bkokster/utils": "^3.2.2",
+    "@bkokster/core": "^3.2.3",
+    "@bkokster/did-resolver": "^3.2.3",
+    "@bkokster/utils": "^3.2.3",
     "@transmute/credentials-context": "^0.7.0-unstable.34",
     "@transmute/ed25519-signature-2018": "^0.7.0-unstable.34",
     "@transmute/lds-ecdsa-secp256k1-recovery2020": "^0.0.7",

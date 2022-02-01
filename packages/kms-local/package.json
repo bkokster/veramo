@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/kms-local",
   "description": "Veramo KMS implementation that provides Ed25519 and secp256k1 crypto",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.2",
-    "@bkokster/key-manager": "^3.2.2",
+    "@bkokster/core": "^3.2.3",
+    "@bkokster/key-manager": "^3.2.3",
     "@ethersproject/abstract-provider": "5.5.1",
     "@ethersproject/abstract-signer": "5.5.0",
     "@ethersproject/bytes": "5.5.0",

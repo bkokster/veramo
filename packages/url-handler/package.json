@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/url-handler",
   "description": "Veramo message handler plugin to decode URL messages.",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -9,8 +9,8 @@
     "extract-api": "yarn veramo dev extract-api"
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.2",
-    "@bkokster/message-handler": "^3.2.2",
+    "@bkokster/core": "^3.2.3",
+    "@bkokster/message-handler": "^3.2.3",
     "debug": "^4.3.3",
     "url-parse": "^1.5.4"
   },

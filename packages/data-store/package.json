@@ -1,7 +1,7 @@
 {
   "name": "@bkokster/data-store",
   "description": "Veramo date storage based on TypeORM",
-  "version": "3.2.2",
+  "version": "3.2.3",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -14,11 +14,11 @@
     }
   },
   "dependencies": {
-    "@bkokster/core": "^3.2.2",
-    "@bkokster/did-discovery": "^3.2.2",
-    "@bkokster/did-manager": "^3.2.2",
-    "@bkokster/key-manager": "^3.2.2",
-    "@bkokster/utils": "^3.2.2",
+    "@bkokster/core": "^3.2.3",
+    "@bkokster/did-discovery": "^3.2.3",
+    "@bkokster/did-manager": "^3.2.3",
+    "@bkokster/key-manager": "^3.2.3",
+    "@bkokster/utils": "^3.2.3",
     "debug": "^4.3.3",
     "typeorm": "0.2.41"
   },
